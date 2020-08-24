@@ -1,0 +1,1 @@
+gcc main.c teVirtualMIDI32.lib -s -static -O1 -Wall -o winmm_server.exe

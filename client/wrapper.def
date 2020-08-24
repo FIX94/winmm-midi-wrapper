@@ -1,0 +1,26 @@
+LIBRARY "winmm.dll"
+EXPORTS
+midiOutCacheDrumPatches = WRP_midiOutCacheDrumPatches
+midiOutCachePatches = WRP_midiOutCachePatches
+midiOutClose = WRP_midiOutClose
+midiOutGetDevCapsA = WRP_midiOutGetDevCapsA
+midiOutGetDevCapsW = WRP_midiOutGetDevCapsW
+midiOutGetID = WRP_midiOutGetID
+midiOutGetNumDevs = WRP_midiOutGetNumDevs
+midiOutGetVolume = WRP_midiOutGetVolume
+midiOutLongMsg = WRP_midiOutLongMsg
+midiOutMessage = WRP_midiOutMessage
+midiOutOpen = WRP_midiOutOpen
+midiOutPrepareHeader = WRP_midiOutPrepareHeader
+midiOutReset = WRP_midiOutReset
+midiOutSetVolume = WRP_midiOutSetVolume
+midiOutShortMsg = WRP_midiOutShortMsg
+midiOutUnprepareHeader = WRP_midiOutUnprepareHeader
+midiStreamClose = WRP_midiStreamClose
+midiStreamOpen = WRP_midiStreamOpen
+midiStreamOut = WRP_midiStreamOut
+midiStreamPause = WRP_midiStreamPause
+midiStreamPosition = WRP_midiStreamPosition
+midiStreamProperty = WRP_midiStreamProperty
+midiStreamRestart = WRP_midiStreamRestart
+midiStreamStop = WRP_midiStreamStop
